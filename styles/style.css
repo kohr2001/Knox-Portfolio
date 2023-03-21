@@ -1,0 +1,89 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+body{
+    margin: 2em;
+    width: 100%;
+}
+h1{
+    margin-left: 1em;
+}
+#quote{
+    text-align: left;
+    font-size: 40px
+}
+.nav a{
+    text-decoration: none;
+    color: white; 
+}
+.nav a:hover{
+    color: black;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+}
+.nav ul{
+    list-style-type: none;
+    background-color: #056f21;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    padding: 1em;
+    margin-right: 3em;
+
+}
+.content{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.image1{
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+#projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+}
+.description{
+    padding: 5px;
+    background-color: #056f21;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    background-color: #056f21;
+    border: 4px solid white;
+    padding: 10px;
+}
+.link1:hover{
+    color: black;
+}
+#contact{
+
+}
+#resume{
+flex-wrap: wrap;
+}
